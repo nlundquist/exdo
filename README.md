@@ -5,6 +5,8 @@ as a proxy to a [SimpleStore](https://github.com/TeamTrumpet/simplestore) persis
 service. Model layer of back and front-ends built with Backbone.
 
 # Running The App
+Run 'bower install' & 'npm install'
+
 Set environment variables:
 - EXDO_SIMPLESTORE_URL
 - EXDO_SIMPLESTORE_USER
