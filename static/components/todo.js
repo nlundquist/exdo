@@ -1,5 +1,7 @@
 /**
  * Created by Nils on 6/17/2015.
+ *
+ * To-Do List component backing view models & component definition
  */
 
 define(['knockout', 'knockback', 'underscore'],

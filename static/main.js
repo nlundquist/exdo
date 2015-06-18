@@ -1,5 +1,7 @@
 /**
  * Created by Nils on 6/17/2015.
+ *
+ * Require.js entry point & config
  */
 
 require.config({
