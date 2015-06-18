@@ -1,0 +1,15 @@
+{
+  "name": "exdo",
+  "version": "0.0.1",
+  "authors": [
+    "Nils Lundquist <nlundqu@gmail.com>"
+  ],
+  "description": "Full-stack To-Do app",
+  "private": true,
+  "dependencies": {
+    "knockback": "~0.20.5",
+    "bootstrap": "~3.3.5",
+    "requirejs": "~2.1.18",
+    "text": "~2.0.14"
+  }
+}

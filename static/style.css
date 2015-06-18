@@ -1,0 +1,12 @@
+body {
+    padding: 1em;
+}
+
+/* Bootstrap Fixes */
+.list-group:last-child {
+    margin-bottom:0;
+}
+
+h1:first-child {
+    margin-top:0;
+}

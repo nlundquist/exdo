@@ -1,0 +1,7 @@
+.todo .list-group-item {
+    display:flex;
+}
+
+.todo .list-group-item button {
+    margin-left: 1em;
+}

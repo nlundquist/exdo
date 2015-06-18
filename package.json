@@ -1,0 +1,32 @@
+{
+  "name": "exdo",
+  "version": "0.0.1",
+  "description": "To-Do list application made with Express, Backbone & Knockback.",
+  "scripts": {
+    "start": "node bin/www",
+    "test": "mocha test"
+  },
+  "author": "Nils Lundquist",
+  "license": "CC-BY-NC-ND-4.0",
+  "dependencies": {
+    "backbone": "^1.2.1",
+    "backbone-super-sync": "0.0.22",
+    "body-parser": "^1.12.4",
+    "debug": "^2.2.0",
+    "errorhandler": "^1.4.0",
+    "express": "^4.12.4",
+    "express-promise": "^0.4.0",
+    "extend": "^2.0.1",
+    "morgan": "^1.6.0",
+    "q": "^1.4.1",
+    "request": "^2.57.0",
+    "text": "^0.1.0",
+    "underscore": "^1.8.3",
+    "validate.js": "^0.7.1"
+  },
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chai-http": "^1.0.0",
+    "mocha": "^2.2.5"
+  }
+}
