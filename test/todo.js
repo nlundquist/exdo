@@ -50,6 +50,8 @@ var delete_document = function(id) {
 // To Do API test suite
 
 describe('To Do', function() {
+    // increase timeout, sometimes heroku is initially unresponsive
+    this.timeout(10000);
 
     // load test data
     before(function(done) {
