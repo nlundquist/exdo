@@ -6,9 +6,9 @@ and front-ends built with Backbone.
 
 # Running The App
 Set environment variables:
-    - EXDO_SIMPLESTORE_URL
-    - EXDO_SIMPLESTORE_USER
-    - EXDO_SIMPLESTORE_PASSWORD
+- EXDO_SIMPLESTORE_URL
+- EXDO_SIMPLESTORE_USER
+- EXDO_SIMPLESTORE_PASSWORD
 
 Run bin/www and access the server at http://localhost:3000
 
