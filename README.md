@@ -1,8 +1,8 @@
 # Exdo Full Stack JS To-Do List App
 
 A To-Do List Knockout component interfacing with an Express backend acting
-as a proxy to a [SimpleStore][http://lol.com] persistence service. Model layer of back
-and front-ends built with Backbone.
+as a proxy to a [SimpleStore](https://github.com/TeamTrumpet/simplestore) persistence
+service. Model layer of back and front-ends built with Backbone.
 
 # Running The App
 Set environment variables:
