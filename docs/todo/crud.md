@@ -34,7 +34,7 @@ Retrieve a To-Do item by *id*.
 ## Replace To-Do Item [PUT]
 Replace the record of a To-Do item referenced by *id*.
 
-+ Request
++ Request 200 (application/json)
     ```
     {
         "title": "Get Milk"
@@ -55,44 +55,44 @@ Delete the record of a To-Do item referencd by *id*.
 This resource represents the complete set of To-Do items.
 
 + Model (application/json)
-    ```
-    {
-        "collection": [
-                {
-                    "id": "8c07aed0-1532-11e5-a968-2945267eddcc"
-                    "title": "Get Eggs"
-                    "complete": false
-                    "links": {
-                        docs: [{
-                            name: 'todo',
-                            href: '/docs/todo/{rel}.html'
-                        }],
-                        'todo:crud': {href: '/todo/{?id}'}
-                    }
-                },
-                {
-                    "id": "6af6b790-1532-11e5-a968-2945267eddcc"
-                    "title": "Get Milk"
-                    "complete": false
-                    "links": {
-                        docs: [{
-                            name: 'todo',
-                            href: '/docs/todo/{rel}.html'
-                        }],
-                        'todo:crud': {href: '/todo/{?id}'}
-                    }
+```
+{
+    "collection": [
+            {
+                "id": "8c07aed0-1532-11e5-a968-2945267eddcc"
+                "title": "Get Eggs"
+                "complete": false
+                "links": {
+                    docs: [{
+                        name: 'todo',
+                        href: '/docs/todo/{rel}.html'
+                    }],
+                    'todo:crud': {href: '/todo/{?id}'}
+                }
+            },
+            {
+                "id": "6af6b790-1532-11e5-a968-2945267eddcc"
+                "title": "Get Milk"
+                "complete": false
+                "links": {
+                    docs: [{
+                        name: 'todo',
+                        href: '/docs/todo/{rel}.html'
+                    }],
+                    'todo:crud': {href: '/todo/{?id}'}
                 }
             }
-        ],
-        "links": {
-            docs: [{
-                name: 'todo',
-                href: '/docs/todo/{rel}.html'
-            }],
-            'todo:crud': {href: '/todo/{?id}'}
         }
+    ],
+    "links": {
+        docs: [{
+            name: 'todo',
+            href: '/docs/todo/{rel}.html'
+        }],
+        'todo:crud': {href: '/todo/{?id}'}
     }
-    ```
+}
+```
 
 ## Retrieve All Items [GET]
 Retrieve all To-Do items.
